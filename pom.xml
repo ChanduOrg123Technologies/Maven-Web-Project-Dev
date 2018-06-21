@@ -79,20 +79,20 @@
 		</dependency>
   </dependencies>
 
-	<!--<distributionManagement>
+	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-releases/</url>
+	      <url>http://localhost:8089/chandu/repository/maven-releases/</url>
 	    </repository>
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://localhost:9090/mithuntechnologies/repository/maven-snapshots</url>
+	      <url>http://localhost:8089/chandu/repository/maven-snapshots/</url>
 	    </snapshotRepository>
-	</distributionManagement> -->
+	</distributionManagement>
 	
-	<distributionManagement>
+	<!-- <distributionManagement>
     <repository>
         <id>central</id>
         <name>DESKTOP-G6SIIDP-releases</name>
@@ -103,7 +103,7 @@
         <name>DESKTOP-G6SIIDP-snapshots</name>
         <url>http://localhost:8081/artifactory/JFrogChanduMavenRepo</url>
     </snapshotRepository>
-</distributionManagement>
+</distributionManagement> -->
 	
 	
   <build>
