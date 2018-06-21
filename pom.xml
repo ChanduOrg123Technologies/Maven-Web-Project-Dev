@@ -5,7 +5,7 @@
 
   <groupId>com.mt</groupId>
   <artifactId>maven-web-project</artifactId>
-  <packaging>ear</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>Maven Web Project 22nd April</name>
   <description>Maven Web Project for Java</description>
@@ -81,12 +81,12 @@
 
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>Nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
 	      <url>http://localhost:8089/chandu/repository/maven-releases/</url>
 	    </repository>
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>Nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://localhost:8089/chandu/repository/maven-snapshots/</url>
 	    </snapshotRepository>
